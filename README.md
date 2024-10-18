@@ -16,19 +16,19 @@ Participant와 Question은 서로 다대다 관계(N:M)이므로 이를 표현�
 
 ## 프로젝트 구조
 
->app
- ㄴ__init__.py
- &nbsp;&nbsp;&nbsp;database.py
- &nbsp;&nbsp;&nbsp;models.py
- &nbsp;&nbsp;&nbsp;routes.py
- &nbsp;&nbsp;&nbsp;templete
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ㄴadmin.html
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dashboard.html
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;index.html
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;manage_questions.html
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;quiz.html
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;quiz_list.html
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;results.html
+>app<br/>
+ ㄴ__init__.py<br/>
+ &nbsp;&nbsp;&nbsp;database.py<br/>
+ &nbsp;&nbsp;&nbsp;models.py<br/>
+ &nbsp;&nbsp;&nbsp;routes.py<br/>
+ &nbsp;&nbsp;&nbsp;templete<br/>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ㄴadmin.html<br/>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dashboard.html<br/>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;index.html<br/>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;manage_questions.html<br/>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;quiz.html<br/>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;quiz_list.html<br/>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;results.html<br/>
  run.py <-- app.run() 실행
  
  <br/><br/>
